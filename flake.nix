@@ -16,7 +16,8 @@
         packages = with pkgs; [
           commitlint
           lefthook
-          # Add language toolchain here (uv, pnpm, cargo, go, ...).
+          nodejs_22
+          pnpm
         ];
       };
     };
