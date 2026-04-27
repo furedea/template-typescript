@@ -11,3 +11,10 @@ pre-commit:
     oxfmt:
       glob: "*.{ts,tsx,js,jsx}"
       run: pnpm exec oxfmt --check {staged_files}
+
+pre-push:
+  commands:
+    typecheck:
+      run: pnpm run typecheck
+    test:
+      run: pnpm run test
