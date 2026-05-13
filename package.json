@@ -12,6 +12,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "knip": "knip",
+    "knip:production": "knip --production",
     "check": "pnpm run format:check && pnpm run lint && pnpm run typecheck && pnpm run test && pnpm run knip"
   },
   "devDependencies": {
