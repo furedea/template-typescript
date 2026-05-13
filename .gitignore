@@ -12,5 +12,6 @@ logs/
 .idea/
 
 node_modules/
+.pnpm-store/
 coverage/
 dist/

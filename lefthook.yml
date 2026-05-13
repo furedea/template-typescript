@@ -24,3 +24,5 @@ pre-commit:
     typecheck:
       glob: "*.{ts,tsx,js,jsx}"
       run: pnpm run typecheck
+    ls-lint:
+      run: git ls-files -z | xargs -0 ls_lint
