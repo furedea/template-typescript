@@ -7,16 +7,12 @@ ignore:
   - .direnv
   - result
   - result-*
-  - "**/logs"
-  - "**/.cache"
+  - docs/logs
 
-  - "**/README.md"
-  - "**/AGENTS.md"
-  - "**/CLAUDE.md"
-  - "**/SKILL.md"
+  - README.md
+
   - pnpm-lock.yaml
   - pnpm-workspace.yaml
-
   - node_modules
   - .pnpm-store
   - dist
