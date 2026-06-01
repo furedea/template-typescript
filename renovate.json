@@ -8,6 +8,14 @@
   ],
   "mode": "full",
   "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "description": "Wait for npm packages to satisfy pnpm minimumReleaseAge.",
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "7 days",
+      "internalChecksFilter": "strict"
+    }
+  ],
   "lockFileMaintenance": {
     "enabled": true
   }
