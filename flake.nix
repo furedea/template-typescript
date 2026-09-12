@@ -19,7 +19,7 @@
           lefthook
           ls-lint
           nixfmt-rfc-style
-          nodejs_22
+          nodejs_24
           pnpm
           statix
         ];
