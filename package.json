@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@types/node": "24.13.3",
-    "knip": "6.4.1",
+    "knip": "6.39.0",
     "oxfmt": "0.45.0",
     "oxlint": "1.60.0",
     "oxlint-tsgolint": "0.21.1",
