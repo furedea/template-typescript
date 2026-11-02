@@ -172,6 +172,9 @@ jobs:
       - name: Run knip
         run: pnpm run knip
 
+      - name: Run pnpm audit
+        run: pnpm audit
+
   all-green:
     if: always()
     needs: [nix-lint, lint, format, typecheck, test, audit]
