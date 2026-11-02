@@ -13,7 +13,7 @@
     "test:watch": "vitest",
     "knip": "knip",
     "knip:production": "knip --production",
-    "check": "pnpm run format:check && pnpm run lint && pnpm run typecheck && pnpm run test && pnpm run knip"
+    "check": "pnpm run format:check && pnpm run lint && pnpm run typecheck && pnpm run test && pnpm run knip && pnpm audit"
   },
   "devDependencies": {
     "@types/node": "24.13.3",
