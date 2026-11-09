@@ -16,7 +16,7 @@
     "check": "pnpm run format:check && pnpm run lint && pnpm run typecheck && pnpm run test && pnpm run knip && pnpm audit"
   },
   "devDependencies": {
-    "@types/node": "24.13.3",
+    "@types/node": "24.19.2",
     "knip": "6.41.0",
     "oxfmt": "0.72.0",
     "oxlint": "1.87.0",
