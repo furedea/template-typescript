@@ -13,12 +13,14 @@
     "max-depth": ["error", { "max": 2 }],
     "max-lines": ["error", { "max": 500 }],
     "max-params": ["error", { "max": 3 }],
+    "no-empty": ["error", { "allowEmptyCatch": false }],
     "no-unused-vars": ["warn", { "ignoreRestSiblings": true }],
     "typescript/await-thenable": "error",
     "typescript/consistent-type-imports": "error",
     "typescript/no-explicit-any": "error",
     "typescript/no-floating-promises": "error",
-    "typescript/no-misused-promises": "error"
+    "typescript/no-misused-promises": "error",
+    "typescript/switch-exhaustiveness-check": "error"
   },
   "overrides": [
     {
