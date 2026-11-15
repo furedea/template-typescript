@@ -32,6 +32,21 @@
           { "name": "ava", "message": "Use vitest." },
           { "name": "tape", "message": "Use vitest." },
           { "name": "node:test", "message": "Use vitest." }
+        ],
+        "patterns": [
+          {
+            "group": [
+              "jest/**",
+              "@jest/**",
+              "mocha/**",
+              "chai/**",
+              "sinon/**",
+              "jasmine/**",
+              "ava/**",
+              "tape/**"
+            ],
+            "message": "Use vitest."
+          }
         ]
       }
     ],
