@@ -15,6 +15,26 @@
     "max-params": ["error", { "max": 3 }],
     "no-else-return": "error",
     "no-empty": ["error", { "allowEmptyCatch": false }],
+    "no-restricted-globals": [
+      "error",
+      { "name": "jest", "message": "Use vitest instead of jest." }
+    ],
+    "no-restricted-imports": [
+      "error",
+      {
+        "paths": [
+          { "name": "jest", "message": "Use vitest." },
+          { "name": "@jest/globals", "message": "Use vitest." },
+          { "name": "mocha", "message": "Use vitest." },
+          { "name": "chai", "message": "Use vitest." },
+          { "name": "sinon", "message": "Use vitest." },
+          { "name": "jasmine", "message": "Use vitest." },
+          { "name": "ava", "message": "Use vitest." },
+          { "name": "tape", "message": "Use vitest." },
+          { "name": "node:test", "message": "Use vitest." }
+        ]
+      }
+    ],
     "no-unused-vars": ["warn", { "ignoreRestSiblings": true }],
     "preserve-caught-error": "error",
     "typescript/await-thenable": "error",
